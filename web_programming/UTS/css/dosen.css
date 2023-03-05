@@ -1,0 +1,215 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f0f1f1;
+}
+#header{
+    display: block; width: 960px; margin: 0 auto;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+#header nav ul{
+    margin: 0; padding: 0; list-style: none; float: right;
+}
+#header nav{
+    display: block;
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #34a7e0;
+    clear: both;
+}
+#header nav ul{
+    padding: 0 20px;
+}
+#header nav ul li{
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+#header nav ul li a{
+    color: #FFFFFF;
+}
+#header nav ul li a:hover{
+    color: #EB7F3A;
+}
+#namadanslogan{
+    float: left;
+margin: 0 0 20px 0;
+}
+#namadanslogan h1, #namadanslogan h2{
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+}
+#namadanslogan h1{
+    font-size: 36px;
+}
+#namadanslogan h2{
+    font-size: 13px;
+}
+
+.barisi a{
+    color: #EB7F3A;
+}
+.barisi h2{
+    color: #46b64d;
+}
+
+#header form{
+    display: block;
+    width: 290px;
+    float: right;
+    margin: 20px 0;
+    padding: 0;
+}
+#header form input{
+    display: block;
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #EB7F3A;
+    border: 1px solid #FCC749;
+}
+
+#header form #btn_cari{
+    display: block;
+    float: right;
+    width: 70px;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #EB7F3A;
+    border: 1px solid #FCC749;
+}
+.clear{
+    clear: both;
+}
+
+/*info terkini*/
+#container {display: block; width: 960px; margin: 0 auto;}
+address, article, aside, figcaption, figure, footer, header, nav, section{display: block; margin: 0; padding: 0;}
+#container #infoterkini{width: 100%;}
+#container #infoterkini figure img{float: right; width: 630px; height: 300px;}
+#container #infoterkini figure figcaption{
+    display: block;
+    float: left;
+    width: 290px;
+    height: 260px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #757472;
+    color: #FFFFFF;
+    line-height: 1.6em;
+}
+#container #infoterkini figure h2{
+    font-size: 42px;
+    line-height: 35px;
+    font-weight:normal;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.selengkapnya{
+    text-align: right;
+}
+.selengkapnya a{
+    color: #FF9900;
+}
+/*info terkini selesai*/
+
+/*halaman artikel*/
+
+#halamanartikel{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    line-height: 1.6em;
+}
+
+#halamanartikel section{
+    margin-bottom: 0;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+#halamanartikel h2.title{
+    margin: 0 0 15px 0;
+    padding: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sectionkiri, .sectiontengah, .sectionkanan{margin: 0 20px 0 0;}
+.sectionkiri, .sectiontengah{width: 225px;}
+.sectionkanan{width: 450px;}
+.sectionkiri h2{font-size: 13px; font-weight: bold; margin: 0 0 10px 0;} 
+
+#halamanartikel section a{
+ color: #EB7F3A;
+}
+.sectionkiri address{margin: 5px 0;}
+
+/*link lainnya*/
+#halamanartikel section nav li{margin: 0 0 8px 0; padding: 0 0 5px 0; border-bottom: 1px solid #D6D6D6;}
+#halamanartikel section nav li a{
+    padding: 0 0 0 10px;
+    background: url("../images/arrow.png") left center no-repeat;
+    background-size: 15px;
+
+}
+.imgfloatleft{
+    display: block;
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: left;
+}
+.imgholder{
+    padding: 5px;
+    border: 1px solid #DEDEDE;
+}
+/*halaman artikel selesai*/
+/*footer*/
+.baris3{
+    background-color: #34a7e0;
+    color: #FFFFFF;
+}
+.clear::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+#footer{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+.footerkiri{
+    float: left;
+}
+.footerkanan{
+    float: right;
+}
+#footer{
+    padding: 20px;
+}
+.baris3 a{
+    color: #FFFFFF;
+}
+/*footer selesai*/
